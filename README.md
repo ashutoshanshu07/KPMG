@@ -61,3 +61,5 @@ value = a
 
 
 SOLUTION
+
+Written Powershell script to achive this task.
