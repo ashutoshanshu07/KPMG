@@ -8,7 +8,7 @@ A 3-tier environment is a common setup. Use a tool of your choosing/familiarity 
 
 SOLUTION
 
-I have created 3-tier application in Azure using Terraform. Three modules are created for each tier. We can seperate resource based on time but for time being I have kept all in one tf files.
+I have created 3-tier application in Azure using Terraform. Three modules are created for each tier. We can seperate resource based on resource type like network.tf for vnet,subnet, NSG and lb.tf for loadbalancer etc.  but for time being I have kept all in one tf files.
 
 3 Tier Architecture Diagram 
 
