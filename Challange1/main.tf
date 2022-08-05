@@ -27,21 +27,21 @@ resource "azurerm_virtual_network" "example" {
 }
 
 module "tier1" {
-  source = "./Challange1/Tier1"
+  source = "./3-Tier-Application/Tier1"
   resource_group_name = azurerm_resource_group.example.name
   location = azurerm_resource_group.example.location
   
 }
   
 module "tier2" {
-  source = "./Challange1/Tier2"
+  source = "./3-Tier-Application/Tier2"
   resource_group_name = azurerm_resource_group.example.name
   location = azurerm_resource_group.example.location
   
 }
 
 module "tier3" {
-  source = "./Challange1/Tier3"
+  source = "./3-Tier-Application/Tier3"
   resource_group_name = azurerm_resource_group.example.name
   location = azurerm_resource_group.example.location
   
