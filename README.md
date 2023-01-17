@@ -42,7 +42,7 @@ We need to write code that will query the meta data of an instance within AWS an
 
 SOLUTION
 
-For my reference I will be using Azure cloud as I am more confortable in Azure cloud . So Instead of metadata of AWS instance I will be using Azure Instance .
+For my reference I will be using Azure cloud as I am more comfortable in Azure cloud . So Instead of metadata of AWS instance I will be using Azure Instance .
 
 I have Written a Shell Script to perfor this action .Its an intractive shell scripting and based on you input it will perform the task.
 
